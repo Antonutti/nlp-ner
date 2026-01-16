@@ -5,16 +5,16 @@ In particular, we leveraged Gemini API to analyze different Named Entity Recogni
 
 ## Project Overview ##
 
-Token Level Evaluation
+**Token Level Evaluation**
 | Technique | Accuracy | Precision | Recall | F1 Score |
-| :--- | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | **Vanilla** | 0.8961 | 0.9005 | 0.8961 | 0.8959 |
 | **Vanilla + Online Search** | 0.8616 | 0.9075 | 0.8616 | 0.8750 |
 | **Vanilla + Chain of Thought** | 0.9009 | 0.9070 | 0.9009 | 0.9013 |
 | **Vanilla + Iterative Refinement** | 0.8925 | 0.8948 | 0.8925 | 0.8917 |
 | **Few-shot** | 0.9049 | 0.8940 | 0.9049 | 0.8970 |
-=================================
-Boundary Level Evaluation
+
+**Boundary Level Evaluation**
 | Technique | Accuracy | Precision | Recall | F1 Score |
 | :--- | :---: | :---: | :---: | :---: |
 | **Vanilla** | 0.4854 | 0.4372 | 0.4854 | 0.4543 |
@@ -51,8 +51,8 @@ The following libraries were used for the project:
 
 In order to use the Gemini API service, it is necessary to have a personal key. Follow this steps in order to create one:
 
-Go to https://ai.google.dev/gemini-api/docs/api-key
-Click on the blue button "Get a Gemini API key in Google AI Studio"
-On the top-right click on "Create API key"
-Search for "Gemini API" and create
-Copy your API key and paste it in the variable your_api_key_here (IMPORTANT)
+- Go to https://ai.google.dev/gemini-api/docs/api-key
+- Click on the blue button "Get a Gemini API key in Google AI Studio"
+- On the top-right click on "Create API key"
+- Search for "Gemini API" and create
+- Copy your API key and paste it in the variable your_api_key_here (IMPORTANT)
